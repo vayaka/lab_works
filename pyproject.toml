@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lab-works"
+version = "0.1.0"
+description = ""
+authors = ["vayaka <korotivan2005@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "lab_works"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
